@@ -6,7 +6,7 @@ This project processes unstructured retail receipt data from JSON files into a s
 - **Parse JSON Lines formatted files** while handling nested data.
 - **Normalize and clean data** across multiple sources.
 - **Address data quality issues** such as inconsistent schemas, missing values, and nested structures.
-- **Build a relational data model** (evolving into a star schema) that can answer business-critical queries regarding brand performance, receipt statuses, and user behavior.
+- **Build a relational data model** that can answer business-critical queries regarding brand performance, receipt statuses, and user behavior.
 - **Document the entire process**, including challenges, solutions, and recommendations for future enhancements.
 
 ---
@@ -86,13 +86,12 @@ df.to_sql(name=table_name, con=engine, if_exists='replace', index=False)
 - Nested Data Normalization (dates, IDs, arrays)
 - Data Type Standardization & NULL handling
 - Referential Integrity Management
-- Star Schema Data Modeling
 - Automated Data Quality Checks
 - Production-Grade Logging & Error Handling
 - Query Optimization with strategic indexing
 
 ## Data Model Architecture
-![Star Schema Diagram](/fetch_ERD.png)
+![ERD Diagram](/fetch_ERD.png)
 
 ### Final Optimized Schema
 ```sql
