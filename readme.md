@@ -1,7 +1,7 @@
 # Analytics Engineering Coding Challenge
 
 ## Overview
-This project processes unstructured retail receipt data from JSON files into a structured relational data warehouse, addressing complex data quality challenges and enabling business critical analytics. This project involved cleaning and transforming multiple unstructured JSON datasets—specifically users, receipts, receipt items, and brands—to build a reliable, analysis-ready data pipeline. The main objectives were to:
+This project processes unstructured retail receipt data from JSON files into a structured relational data warehouse, addressing complex data quality challenges and enabling business critical analytics. This project involved cleaning and transforming multiple unstructured JSON datasets, specifically users, receipts, receipt items, and brands to build a reliable, analysis-ready data pipeline. The main objectives were to:
 
 - **Parse JSON Lines formatted files** while handling nested data.
 - **Normalize and clean data** across multiple sources.
