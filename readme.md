@@ -20,7 +20,6 @@ Each line in the files represents a separate JSON object. This format initially 
 
 - **Nested Fields:**  
     - **\_id:** Stored as `{"$oid": "value"}`  
-    - **Date fields:** Nested as `{"$date": timestamp}`  
     - **cpg field (in brands):** Contains a nested structure with `$oid` and `$ref` keys.
 
 - **Inconsistent Keys:**  
